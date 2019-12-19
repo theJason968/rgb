@@ -1,0 +1,45 @@
+body {
+    background-color: #232323;
+}
+
+h1, h2, h3 {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.square {
+    background: purple;
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 10px;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+
+
+.firstButtons {
+    margin-top: 10px;
+    border: none;
+    background: none;
+}
+
+button:hover{
+    color: white;
+    background: steelblue;
+    transition-duration: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 0.5s;
+}
+
+#tryAgainButtons {
+    background-color: white;
+    margin-top: 10px;
+}
+

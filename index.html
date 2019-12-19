@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="game" content="a game made using pure javascript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Jason Vu">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="rgbColors.css">
+    <title>RGB Colors</title>
+</head>
+<body>
+    <div id = "theTitle">
+        <div class="container-fluid theBackground">
+            <div class="row justify-content-center">
+                <h3>THE GREAT</h3>
+            </div>
+        </div>  
+        <div class="container-fluid theBackground">
+                <div class="row justify-content-center">
+                    <h1><span id = "rgbColors">RGB</span></h1>
+                </div>
+        </div>
+        <div class="container-fluid theBackground">
+                <div class="row justify-content-center">
+                    <h3>GUESSING GAME</h3>
+                </div>
+        </div>
+    </div>
+    <div id = "tryAgainButtons" class="container">
+        <div class="row justify-content-center">
+                <button id = "resetColors" class="firstButtons"><strong>New Colors</strong></button>
+                <button id = "tryAgain" class="firstButtons" style="margin-left: 50px; margin-right: 50px;"></button> 
+                <button id = "easyMode" class="firstButtons" ><strong>Easy</strong></button>
+                <button id = "hardMode" class="firstButtons" ><strong>Hard</strong></button>  
+        </div>
+    </div>  
+
+    <div id = "container" class="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    
+
+    <script src="rgbColors.js"></script>
+</body>
+</html>
